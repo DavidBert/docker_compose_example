@@ -16,3 +16,4 @@ In the ```annoy-api``` I use a fake index to show how to use the API. You can re
 ```docker-compose down``` in the root directory of this repository
 7. To remove the containers, run `docker-compose rm` in the root directory of this repository
 8. To remove the images, run `docker image prune -a` in the root directory of this repository
+9. To remove everything, run `docker system prune -a --volumes`
